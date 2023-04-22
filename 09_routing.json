@@ -1,0 +1,13 @@
+{
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "domain": [
+          "domain:gstatic.com"
+        ],
+        "outboundTag": "direct"
+      }
+    ]
+  }
+}
