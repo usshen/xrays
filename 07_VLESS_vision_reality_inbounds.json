@@ -1,0 +1,45 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vless",
+      "tag": "VLESSReality",
+      "settings": {
+        "clients": [
+  {
+    "id": "run 'xray uuid' to generate",
+    "email": "",
+    "flow": "xtls-rprx-vision"
+  }
+],
+        "decryption": "none",
+        "fallbacks":[
+            {
+                "dest": "31305",
+                "xver": 1
+            }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+            "show": false,
+            "dest": "cdn-dynmedia-1.microsoft.com:443",
+            "xver": 0,
+            "serverNames": [
+                "cdn-dynmedia-1.microsoft.com",
+		"update.microsoft",
+		"www.lovelive-anime.jp"
+            ],
+            "privateKey": "",
+            "publicKey": "",
+            "maxTimeDiff": 70000,
+            "shortIds": [
+                ""
+            ]
+        }
+      }
+    }
+  ]
+}
