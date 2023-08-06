@@ -1,0 +1,26 @@
+{
+    "inbounds": [
+        {
+            "port": 52434,
+            "protocol": "shadowsocks",
+			"tag": "ss",
+            "settings": {
+                "clients": [
+                    {
+                        "password": "gzg75A1XEyq7",
+                        "method": "aes-128-gcm"
+                    },
+                    {
+                        "password": "xR4S4Mq3y7g2",
+                        "method": "aes-256-gcm"
+                    },
+                    {
+                        "password": "0jWxX8E5KDZr",
+                        "method": "chacha20-poly1305"
+                    }
+                ],
+                "network": "tcp,udp"
+            }
+        }
+    ]
+}
