@@ -1,0 +1,21 @@
+{
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+			"port": 35248,
+            "protocol": "socks",
+			"tag": "socks",
+            "settings": {
+                "auth": "noauth",
+                "accounts": [
+                    {
+                        "user": "",
+                        "pass": ""
+                    }
+                ],
+                "udp": true,
+                "ip": "127.0.0.1"
+            }
+        }
+    ]
+}
