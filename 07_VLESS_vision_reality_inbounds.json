@@ -32,7 +32,7 @@
 		"update.microsoft",
 		"www.lovelive-anime.jp"
             ],
-            "privateKey": "",
+            "privateKey": "", //run 'xray x25519' to generate
             "publicKey": "",
             "maxTimeDiff": 70000,
             "shortIds": [
