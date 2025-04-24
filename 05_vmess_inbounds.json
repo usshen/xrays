@@ -1,14 +1,19 @@
-{ 
-  "inbounds": [
+{
+    "inbounds": [
     {
-      "port": 5,
-	  "listen": "::",
-      "protocol": "vmess",
+      "port": 22222225,
+      "protocol": "vless",
+	  "tag": "kcm_ipV6",
       "settings": {
         "clients": [
           {
-            "id": "xray uuid",
-            "alterId": 0
+            "id": "972c8ae8-c205-11eb-b887-db851478ad50"
+          }
+        ],
+        "decryption": "none",
+        "fallbacks": [
+          {
+            "dest": 80
           }
         ]
       },
@@ -28,12 +33,12 @@
           "writeBufferSize": 2,
           "header": {
             "type": "srtp"
-          }
+          },
+          "seed": "1js3"
         },
         "wsSettings": {},
         "quicSettings": {}
       }
-    }
+	}
   ]
 }
-
