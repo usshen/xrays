@@ -6,6 +6,7 @@
         "domain": [
           "domain:gstatic.com"
         ],
+        "inboundTag": ["tag-vmess"],
         "outboundTag": "direct"
       }
     ]
