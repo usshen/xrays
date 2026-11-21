@@ -1,13 +1,30 @@
 {
   "routing": {
+    "domainStrategy": "AsIs",
     "rules": [
       {
-        "type": "field",
-        "domain": [
-          "domain:gstatic.com"
+        "ip": [
+          "geoip:private"
         ],
-        "inboundTag": ["tag-vmess"],
-        "outboundTag": "direct"
+        "outboundTag": "blocked",
+        "type": "field"
+      },
+      {
+        "outboundTag": "blocked",
+        "protocol": [
+          "bittorrent"
+        ],
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:cn"
+        ],
+        "ip": [
+          "geoip:cn"
+        ],
+        "outboundTag": "blocked",
+        "type": "field"
       }
     ]
   }
