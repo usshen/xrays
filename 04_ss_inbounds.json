@@ -7,11 +7,11 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "xR4S4Mq3y7g2",
+                        "password": "xR4S4M3y7g2",
                         "method": "chacha20-poly1305"
                     },
                     {
-                        "password": "0jWxX8E5KDZr",
+                        "password": "0jWxXE5KDZr",
                         "method": "chacha20-poly1305"
                     }
                 ],
